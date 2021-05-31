@@ -1,0 +1,135 @@
+body {
+    background-color: #fbf8e1;
+    margin-right: 0px;
+}
+
+header {
+    text-align: center;
+    padding-top: 40px;
+    font-size: 2em;
+}
+
+header a {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #000000;
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3em;
+}
+
+h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2em;
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1em;
+}
+
+footer {
+    text-align: center;
+}
+
+div.offset {
+    padding: 3%;
+    padding-top: 1%;
+    margin-left: 3%;
+}
+
+#personal {
+    background-color: #cdf3ff;
+    display: inline-block;
+    margin-top: 50px;
+}
+
+#interests {
+    background-color: #c7ffc7;
+    display: inline-block;
+    margin-top: 50px;
+}
+
+#personal img {
+    width: 60%;
+}
+
+nav {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+nav a {
+    background-color:rgba(240, 179, 255, 0.6);
+    padding: 10px;
+    line-height: 45px;
+    font-family: monospace;
+    font-size: 25px;
+}
+
+@media all and (min-width:800px) {
+    header {
+        padding-left: 40%;
+        text-align: left;
+    }
+
+    header a {
+        margin-right: 10%;
+    }
+    nav a {
+        padding: 10px;
+        padding-left: 20px;
+        display: block;
+        margin-left: 0px;
+    }
+
+    nav {
+        display: inline-block;
+        padding-left: 0px;
+        width: 150px;
+        top: 75px;
+        left: 0px;
+    }
+
+    nav a:first-child {
+        border-top-right-radius: 10px;
+    }
+
+    nav a:last-child {
+        border-bottom-right-radius: 10px;
+    }
+
+    #personal {
+        margin-left: 20%;
+        margin-top: 50px;
+    }
+
+    #interests {
+        margin-left: 15%;
+        margin-top: 100px;
+        margin-right: 30%;
+    }
+
+    #personal img {
+        width: 15%;
+    }
+
+    #aboutmepara {
+        padding-right: 50%;
+    }
+
+    #interestspara {
+        padding-right: 20%;
+        padding-left: 10%;
+    }
+}
+
+.current {
+    background-color:rgba(240, 179, 255, 0.9)
+}
+
+a {
+    text-decoration: none;
+}
